@@ -1,0 +1,47 @@
+<div id="custom-overlay" [style.display]="splash ? 'flex': 'none'">
+  <div class="flb">
+    <div class="Aligner-item Aligner-item--top"></div>
+    <img src="assets/logoo.png">
+    <div class="Aligner-item Aligner-item--bottom"></div>
+  </div>
+</div>
+
+<ion-content class="pipit">
+<div class="grid-basic-page">
+  <div class="selamat">
+    <h1><b>Selamat Datang</b></h1>
+    <p><b>Fisika ? dimana saja dan kapan saja bisa ! </b></p>
+  </div>
+  <ion-grid>
+    <ion-row>
+      <ion-col (click)="loadFirst()">
+        <div class="twocolordiv">
+          <img src="assets/book.png" width="60px">
+          <p><b>Materi</b></p>
+        </div>
+      </ion-col>
+      <ion-col (click)="loadSecond()">
+        <div class="twocolordiv">
+          <img src="assets/quiz.png" width="60px">
+          <p><b>Quiz</b></p>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col (click)="loadThird()">
+        <div class="twocolordiv">
+          <img src="assets/score.png" width="60px">
+          <p><b>Contoh Soal</b></p>
+        </div>
+      </ion-col>
+      <ion-col (click)="loadFourth()">
+        <div class="twocolordiv">
+          <img src="assets/profile.png" width="60px">
+          <p><b>Tentang Kami</b></p>
+        </div>
+      </ion-col>
+    </ion-row>
+    
+  </ion-grid>
+</div>
+</ion-content>

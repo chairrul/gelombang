@@ -1,0 +1,45 @@
+.toolbar-background-md {
+background: #00c6ff;
+}
+.toolbar-title{
+    padding: 0 12px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+}
+.bar-button::after {
+    left: -2px;
+    right: -2px;
+    top: -7px;
+    bottom: -6px;
+    position: absolute;
+    content: "";
+}
+.bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+    color: white;
+    background-color: transparent;
+}
+.bar-button-default-md:hover:not(.disable-hover), .bar-button-clear-md-default:hover:not(.disable-hover), .bar-button-md-default:hover:not(.disable-hover) {
+    color: white;
+}
+
+
+
+
+
+.materi-page{
+  padding:0;
+  margin:0;
+  width:100%;
+  height:100%;
+  .kiri{
+  	padding: 0;
+  }
+  .kanan{
+  	text-align: right;
+  	padding: 0;
+  	button{
+  		background-color: #00c6ff;
+  	}
+  }
+}
